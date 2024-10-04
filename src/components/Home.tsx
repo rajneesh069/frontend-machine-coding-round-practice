@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <div className="flex flex-col flex-wrap gap-2 md:flex-row border border-gray-300 justify-center items-center h-[90vh]">
       <button onClick={() => navigate("/accordion")}>Accordion</button>
-      <button onClick={() => navigate("/Counter")}>Counter</button>
+      <button onClick={() => navigate("/counter")}>Counter</button>
+      <button onClick={() => navigate("/autocomplete")}>AutoComplete</button>
     </div>
   );
 }

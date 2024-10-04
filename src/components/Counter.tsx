@@ -31,7 +31,7 @@ export default function Counter({ delay = 1000 }: { delay: number }) {
     };
   }, [delay, setCount, state, count, setState, input]);
   return (
-    <div className="flex flex-col gap-2 justify-center items-center h-[90vh]">
+    <div className="flex flex-col gap-4 justify-center items-center h-[90vh]">
       <h1 className="text-4xl">{count}</h1>
       <input
         className="border border-gray-300 w-[200px]"
@@ -41,7 +41,7 @@ export default function Counter({ delay = 1000 }: { delay: number }) {
         disabled={state === "start"}
         onChange={(e) => setInput(e.target.value)}
       />
-      <div className="flex flex-col md:flex-row gap-1 border border-gray-300 rounded-md p-1">
+      <div className="flex flex-col md:flex-row gap-1 rounded-md p-1">
         <button
           onClick={() => {
             setState("start");
