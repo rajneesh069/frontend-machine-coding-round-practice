@@ -8,6 +8,7 @@ export default function Home() {
       <button onClick={() => navigate("/accordion")}>Accordion</button>
       <button onClick={() => navigate("/counter")}>Counter</button>
       <button onClick={() => navigate("/autocomplete")}>AutoComplete</button>
+      <button onClick={() => navigate("/calculator")}>Calculator</button>
     </div>
   );
 }
