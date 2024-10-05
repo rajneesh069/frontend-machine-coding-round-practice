@@ -7,6 +7,7 @@ import Counter from "./components/Counter";
 import AutoComplete from "./components/AutoCompleteTypeAhead";
 import Calculator from "./components/Calculator";
 import { calculatorButtons } from "./constants/calculator";
+import CountDownTimer from "./components/CountDownTimer";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/accordion" element={<Accordion items={items} />} />
         <Route path="/counter" element={<Counter delay={1000} />} />
         <Route path="/autocomplete" element={<AutoComplete />} />
+        <Route path="/timer" element={<CountDownTimer />} />
         <Route
           path="/calculator"
           element={<Calculator calculatorButtons={calculatorButtons} />}
