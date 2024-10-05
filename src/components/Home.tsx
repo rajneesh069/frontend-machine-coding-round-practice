@@ -10,6 +10,7 @@ export default function Home() {
       <button onClick={() => navigate("/autocomplete")}>AutoComplete</button>
       <button onClick={() => navigate("/calculator")}>Calculator</button>
       <button onClick={() => navigate("/timer")}>Count Down Timer</button>
+      <button onClick={() => navigate("/modal")}>Custom Modal</button>
     </div>
   );
 }
